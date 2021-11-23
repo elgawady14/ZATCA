@@ -1,0 +1,610 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4ABC1E43274D69DB000A3EFE /* ZATCAApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ABC1E42274D69DB000A3EFE /* ZATCAApp.swift */; };
+		4ABC1E45274D69DB000A3EFE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ABC1E44274D69DB000A3EFE /* ContentView.swift */; };
+		4ABC1E47274D69DD000A3EFE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4ABC1E46274D69DD000A3EFE /* Assets.xcassets */; };
+		4ABC1E4A274D69DD000A3EFE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4ABC1E49274D69DD000A3EFE /* Preview Assets.xcassets */; };
+		4ABC1E54274D69DD000A3EFE /* ZATCATests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ABC1E53274D69DD000A3EFE /* ZATCATests.swift */; };
+		4ABC1E5E274D69DD000A3EFE /* ZATCAUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ABC1E5D274D69DD000A3EFE /* ZATCAUITests.swift */; };
+		4ABC1E60274D69DD000A3EFE /* ZATCAUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ABC1E5F274D69DD000A3EFE /* ZATCAUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4ABC1E50274D69DD000A3EFE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4ABC1E37274D69DB000A3EFE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4ABC1E3E274D69DB000A3EFE;
+			remoteInfo = ZATCA;
+		};
+		4ABC1E5A274D69DD000A3EFE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4ABC1E37274D69DB000A3EFE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4ABC1E3E274D69DB000A3EFE;
+			remoteInfo = ZATCA;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4ABC1E3F274D69DB000A3EFE /* ZATCA.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZATCA.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4ABC1E42274D69DB000A3EFE /* ZATCAApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZATCAApp.swift; sourceTree = "<group>"; };
+		4ABC1E44274D69DB000A3EFE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		4ABC1E46274D69DD000A3EFE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4ABC1E49274D69DD000A3EFE /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		4ABC1E4F274D69DD000A3EFE /* ZATCATests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZATCATests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4ABC1E53274D69DD000A3EFE /* ZATCATests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZATCATests.swift; sourceTree = "<group>"; };
+		4ABC1E59274D69DD000A3EFE /* ZATCAUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZATCAUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4ABC1E5D274D69DD000A3EFE /* ZATCAUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZATCAUITests.swift; sourceTree = "<group>"; };
+		4ABC1E5F274D69DD000A3EFE /* ZATCAUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZATCAUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4ABC1E3C274D69DB000A3EFE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4ABC1E4C274D69DD000A3EFE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4ABC1E56274D69DD000A3EFE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4ABC1E36274D69DB000A3EFE = {
+			isa = PBXGroup;
+			children = (
+				4ABC1E41274D69DB000A3EFE /* ZATCA */,
+				4ABC1E52274D69DD000A3EFE /* ZATCATests */,
+				4ABC1E5C274D69DD000A3EFE /* ZATCAUITests */,
+				4ABC1E40274D69DB000A3EFE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4ABC1E40274D69DB000A3EFE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4ABC1E3F274D69DB000A3EFE /* ZATCA.app */,
+				4ABC1E4F274D69DD000A3EFE /* ZATCATests.xctest */,
+				4ABC1E59274D69DD000A3EFE /* ZATCAUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4ABC1E41274D69DB000A3EFE /* ZATCA */ = {
+			isa = PBXGroup;
+			children = (
+				4ABC1E42274D69DB000A3EFE /* ZATCAApp.swift */,
+				4ABC1E44274D69DB000A3EFE /* ContentView.swift */,
+				4ABC1E46274D69DD000A3EFE /* Assets.xcassets */,
+				4ABC1E48274D69DD000A3EFE /* Preview Content */,
+			);
+			path = ZATCA;
+			sourceTree = "<group>";
+		};
+		4ABC1E48274D69DD000A3EFE /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				4ABC1E49274D69DD000A3EFE /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		4ABC1E52274D69DD000A3EFE /* ZATCATests */ = {
+			isa = PBXGroup;
+			children = (
+				4ABC1E53274D69DD000A3EFE /* ZATCATests.swift */,
+			);
+			path = ZATCATests;
+			sourceTree = "<group>";
+		};
+		4ABC1E5C274D69DD000A3EFE /* ZATCAUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4ABC1E5D274D69DD000A3EFE /* ZATCAUITests.swift */,
+				4ABC1E5F274D69DD000A3EFE /* ZATCAUITestsLaunchTests.swift */,
+			);
+			path = ZATCAUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4ABC1E3E274D69DB000A3EFE /* ZATCA */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4ABC1E63274D69DD000A3EFE /* Build configuration list for PBXNativeTarget "ZATCA" */;
+			buildPhases = (
+				4ABC1E3B274D69DB000A3EFE /* Sources */,
+				4ABC1E3C274D69DB000A3EFE /* Frameworks */,
+				4ABC1E3D274D69DB000A3EFE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZATCA;
+			productName = ZATCA;
+			productReference = 4ABC1E3F274D69DB000A3EFE /* ZATCA.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4ABC1E4E274D69DD000A3EFE /* ZATCATests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4ABC1E66274D69DD000A3EFE /* Build configuration list for PBXNativeTarget "ZATCATests" */;
+			buildPhases = (
+				4ABC1E4B274D69DD000A3EFE /* Sources */,
+				4ABC1E4C274D69DD000A3EFE /* Frameworks */,
+				4ABC1E4D274D69DD000A3EFE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4ABC1E51274D69DD000A3EFE /* PBXTargetDependency */,
+			);
+			name = ZATCATests;
+			productName = ZATCATests;
+			productReference = 4ABC1E4F274D69DD000A3EFE /* ZATCATests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4ABC1E58274D69DD000A3EFE /* ZATCAUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4ABC1E69274D69DD000A3EFE /* Build configuration list for PBXNativeTarget "ZATCAUITests" */;
+			buildPhases = (
+				4ABC1E55274D69DD000A3EFE /* Sources */,
+				4ABC1E56274D69DD000A3EFE /* Frameworks */,
+				4ABC1E57274D69DD000A3EFE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4ABC1E5B274D69DD000A3EFE /* PBXTargetDependency */,
+			);
+			name = ZATCAUITests;
+			productName = ZATCAUITests;
+			productReference = 4ABC1E59274D69DD000A3EFE /* ZATCAUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4ABC1E37274D69DB000A3EFE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1310;
+				LastUpgradeCheck = 1310;
+				TargetAttributes = {
+					4ABC1E3E274D69DB000A3EFE = {
+						CreatedOnToolsVersion = 13.1;
+					};
+					4ABC1E4E274D69DD000A3EFE = {
+						CreatedOnToolsVersion = 13.1;
+						TestTargetID = 4ABC1E3E274D69DB000A3EFE;
+					};
+					4ABC1E58274D69DD000A3EFE = {
+						CreatedOnToolsVersion = 13.1;
+						TestTargetID = 4ABC1E3E274D69DB000A3EFE;
+					};
+				};
+			};
+			buildConfigurationList = 4ABC1E3A274D69DB000A3EFE /* Build configuration list for PBXProject "ZATCA" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4ABC1E36274D69DB000A3EFE;
+			productRefGroup = 4ABC1E40274D69DB000A3EFE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4ABC1E3E274D69DB000A3EFE /* ZATCA */,
+				4ABC1E4E274D69DD000A3EFE /* ZATCATests */,
+				4ABC1E58274D69DD000A3EFE /* ZATCAUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4ABC1E3D274D69DB000A3EFE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4ABC1E4A274D69DD000A3EFE /* Preview Assets.xcassets in Resources */,
+				4ABC1E47274D69DD000A3EFE /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4ABC1E4D274D69DD000A3EFE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4ABC1E57274D69DD000A3EFE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4ABC1E3B274D69DB000A3EFE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4ABC1E45274D69DB000A3EFE /* ContentView.swift in Sources */,
+				4ABC1E43274D69DB000A3EFE /* ZATCAApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4ABC1E4B274D69DD000A3EFE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4ABC1E54274D69DD000A3EFE /* ZATCATests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4ABC1E55274D69DD000A3EFE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4ABC1E60274D69DD000A3EFE /* ZATCAUITestsLaunchTests.swift in Sources */,
+				4ABC1E5E274D69DD000A3EFE /* ZATCAUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4ABC1E51274D69DD000A3EFE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4ABC1E3E274D69DB000A3EFE /* ZATCA */;
+			targetProxy = 4ABC1E50274D69DD000A3EFE /* PBXContainerItemProxy */;
+		};
+		4ABC1E5B274D69DD000A3EFE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4ABC1E3E274D69DB000A3EFE /* ZATCA */;
+			targetProxy = 4ABC1E5A274D69DD000A3EFE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		4ABC1E61274D69DD000A3EFE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4ABC1E62274D69DD000A3EFE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4ABC1E64274D69DD000A3EFE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ZATCA/Preview Content\"";
+				DEVELOPMENT_TEAM = 5DW4MH742S;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.elgawady14.ZATCA;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4ABC1E65274D69DD000A3EFE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ZATCA/Preview Content\"";
+				DEVELOPMENT_TEAM = 5DW4MH742S;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.elgawady14.ZATCA;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		4ABC1E67274D69DD000A3EFE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5DW4MH742S;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.elgawady14.ZATCATests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZATCA.app/ZATCA";
+			};
+			name = Debug;
+		};
+		4ABC1E68274D69DD000A3EFE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5DW4MH742S;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.elgawady14.ZATCATests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZATCA.app/ZATCA";
+			};
+			name = Release;
+		};
+		4ABC1E6A274D69DD000A3EFE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5DW4MH742S;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.elgawady14.ZATCAUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ZATCA;
+			};
+			name = Debug;
+		};
+		4ABC1E6B274D69DD000A3EFE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5DW4MH742S;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.elgawady14.ZATCAUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ZATCA;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4ABC1E3A274D69DB000A3EFE /* Build configuration list for PBXProject "ZATCA" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4ABC1E61274D69DD000A3EFE /* Debug */,
+				4ABC1E62274D69DD000A3EFE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4ABC1E63274D69DD000A3EFE /* Build configuration list for PBXNativeTarget "ZATCA" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4ABC1E64274D69DD000A3EFE /* Debug */,
+				4ABC1E65274D69DD000A3EFE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4ABC1E66274D69DD000A3EFE /* Build configuration list for PBXNativeTarget "ZATCATests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4ABC1E67274D69DD000A3EFE /* Debug */,
+				4ABC1E68274D69DD000A3EFE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4ABC1E69274D69DD000A3EFE /* Build configuration list for PBXNativeTarget "ZATCAUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4ABC1E6A274D69DD000A3EFE /* Debug */,
+				4ABC1E6B274D69DD000A3EFE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4ABC1E37274D69DB000A3EFE /* Project object */;
+}
