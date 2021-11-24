@@ -14,6 +14,8 @@
 		4ABC1E54274D69DD000A3EFE /* ZATCATests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ABC1E53274D69DD000A3EFE /* ZATCATests.swift */; };
 		4ABC1E5E274D69DD000A3EFE /* ZATCAUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ABC1E5D274D69DD000A3EFE /* ZATCAUITests.swift */; };
 		4ABC1E60274D69DD000A3EFE /* ZATCAUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ABC1E5F274D69DD000A3EFE /* ZATCAUITestsLaunchTests.swift */; };
+		4ABC1E6E274D89DF000A3EFE /* ZatcaQRCodeGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ABC1E6D274D89DF000A3EFE /* ZatcaQRCodeGenerator.swift */; };
+		4ABC1E70274D91B3000A3EFE /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ABC1E6F274D91B3000A3EFE /* Extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +46,8 @@
 		4ABC1E59274D69DD000A3EFE /* ZATCAUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZATCAUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4ABC1E5D274D69DD000A3EFE /* ZATCAUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZATCAUITests.swift; sourceTree = "<group>"; };
 		4ABC1E5F274D69DD000A3EFE /* ZATCAUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZATCAUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		4ABC1E6D274D89DF000A3EFE /* ZatcaQRCodeGenerator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZatcaQRCodeGenerator.swift; sourceTree = "<group>"; };
+		4ABC1E6F274D91B3000A3EFE /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +100,8 @@
 			children = (
 				4ABC1E42274D69DB000A3EFE /* ZATCAApp.swift */,
 				4ABC1E44274D69DB000A3EFE /* ContentView.swift */,
+				4ABC1E6D274D89DF000A3EFE /* ZatcaQRCodeGenerator.swift */,
+				4ABC1E6F274D91B3000A3EFE /* Extensions.swift */,
 				4ABC1E46274D69DD000A3EFE /* Assets.xcassets */,
 				4ABC1E48274D69DD000A3EFE /* Preview Content */,
 			);
@@ -257,8 +263,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4ABC1E70274D91B3000A3EFE /* Extensions.swift in Sources */,
 				4ABC1E45274D69DB000A3EFE /* ContentView.swift in Sources */,
 				4ABC1E43274D69DB000A3EFE /* ZATCAApp.swift in Sources */,
+				4ABC1E6E274D89DF000A3EFE /* ZatcaQRCodeGenerator.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
