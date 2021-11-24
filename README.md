@@ -5,10 +5,8 @@
   </a>
   <h1 align="center">ZATCA (Fatoora) QR-Code Implementation in iOS</h1>
   <p align="center">
-    An unofficial package to help iOS developers community to implement ZATCA (Fatoora) QR code easily which required for e-invoicing 
-  </p>
-  <p align="left">
-    <a href="https://www.linkedin.com/in/ahmadabdulgawadmahmoud/">Report a Bug</a> 
+    QR-Code implementation in Swift for the e-invoicing (Fatoora). (<a href="https://zatca.gov.sa/ar/E-Invoicing/Introduction/Pages/What-is-e-invoicing.aspx">Zatca-Fatoora</a>)  
+    <br>
   </p>
 </div>
 
