@@ -72,6 +72,15 @@ We have to apply the following step:
 ```swift
 tlv = [UInt8(tag.rawValue)!, length] + [UInt8](value.utf8)
 ```
+
+# Testing 
+
+- Download this app to validate is your QR code is meet [Zatca](https://zatca.gov.sa/) requirements or not: 
+[E-Invoice QR Reader KSA قارئ الفاتورة الالكترونية](https://play.google.com/store/apps/details?id=com.posbankbh.einvoiceqrreader)
+
+ - Sample of QR Reader 
+<img src="https://github.com/iabdelgawaad/QR-Cod-Zatca/blob/main/zatca_validation_qr.jpg" width="400" height="800">
+
 ## TODO
 
 **Insha'Allah**, I will continue work on this package until support the whole cycle of QR code implementation.
@@ -101,9 +110,9 @@ You can also simply open an issue with the tag "enhancement". Don't forget to gi
 
 ## Credits
 
-- [Salla](https://github.com/sallaApp)
 - [All Contributors](../../contributors)
-
+- [Salla](https://github.com/sallaApp)
+- [ZACTA Android](https://github.com/iabdelgawaad/ZATCA)
 
 ## License
 
