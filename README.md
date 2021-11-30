@@ -74,7 +74,7 @@ tlv = [UInt8(tag.rawValue)!, length] + [UInt8](value.utf8)
 # Testing 
 
 - Download this app to validate is your QR code is meet [Zatca](https://zatca.gov.sa/) requirements or not: 
-[E-Invoice QR Reader KSA قارئ الفاتورة الالكترونية](https://play.google.com/store/apps/details?id=com.posbankbh.einvoiceqrreader)
+[E-Invoice QR Reader KSA قارئ الفاتورة الالكترونية](https://apps.apple.com/us/app/e-invoice-qr-reader-ksa/id1580793042)
 
  - Sample of QR Reader 
 <img src="https://github.com/iabdelgawaad/QR-Cod-Zatca/blob/main/zatca_validation_qr.jpg" width="400" height="800">
